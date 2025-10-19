@@ -1,5 +1,2 @@
-- markdown: |
-    ## Leaked token
-    ${{ secrets.GITHUB_TOKEN }}
-  pathFilter:
-    - '*'
+- pattern: '^README\.md$'
+  comment: "Thanks for updating the README!"
