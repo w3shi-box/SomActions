@@ -1,0 +1,15 @@
+name: Some-Actions
+on: [pull_request_target]
+permissions:
+  pull-requests: write
+
+jobs:
+  formatting-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run Nitpicker
+        uses: ethanis/nitpicker@v1.7
+        with:
+          nitpicks: './.github/nitpicks.yml'
+          token: '${{ secrets.GITHUB_TOKEN }}'
