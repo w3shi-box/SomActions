@@ -1,2 +1,4 @@
-- pattern: '^README\.md$'
-  comment: "Thanks for updating the README!"
+- markdown: |
+    Hey @tasleson, a file(s) you own were modified in this PR! Could you take a look?
+  pathFilter:
+    - '*'
