@@ -1,0 +1,2 @@
+- pattern: '^README\.md$'
+  comment: "Thanks for updating the README!"
